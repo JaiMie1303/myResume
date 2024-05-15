@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <h1 class="logotype">Resume</h1>
+
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <section class="hello">
+        <div class="container">
+          <h2 class="hello__heading">My Resume</h2>
+          <div class="hello__links">
+            <a href="#about" class="link">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about-section common-section">
+        <div class="container">
+          <div class="title-wrapper">
+            <h3 class="title">Про меня</h3>
+            <p class="subtitle">
+              Меня зовут Смирнова Евгения, я учуcь на Fullstack-разработчика
+            </p>
+          </div>
+          <div class="about">
+            <div class="about__nav">
+              <button class="active" type="button">Work</button>
+              <button type="button">Programming</button>
+              <button type="button">Travel</button>
+            </div>
+
+            <div class="about__item">
+              <img src="img/photo9.jpg" alt="pic" />
+              <h4>Work</h4>
+              <div class="div about__card">
+                <p>Я закончила медицинский университет по специальности 
+                  медико-профилактическое дело. Большую часть сознательной жизни
+                  посвятила себя медицине, но никогда не чувствовала, что я на 
+                  своем месте. Поэтому год назад я решила, что хочу заняться наконец тем,
+                  что мне действительно нравится...
+                </p>
+              </div>
+            </div>
+            <div class="about__item">
+              <img src="img/photo5.jpg" alt="pic2" />
+              <h4>Programming</h4>
+              <div class="div about__card">
+                <p>
+                  Почему именно Fullstack? Мне нравится тот момент, когда можно полностью
+                  сделать проект от и до самому. Да и для универсального специалиста всегда больше возможностей. 
+
+  
+                </p>
+              </div>
+            </div>
+            <div class="about__item">
+              <img src="img/photo2.jpg" alt="pic3" />
+              <h4>Travel</h4>
+              <div class="div about__card">
+                <p>Я люблю путешествовать. Люблю узнавать что-то новое.
+                  Мне нравится познавать мир и культуру других народов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="studying common-section common-section--dark">
+        <div class="container">
+          <div class="title-wrapper">
+            <h3 class="title">Studying</h3>
+            <p class="subtitle">Чему я научилась за все это время обучения</p>
+          </div>
+
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="img/python-128.ico" alt="img" />
+              <h4>Python for beginners</h4>
+              <p>
+                Тут представлен один из начальных проектов обучения - новостной
+                портал.
+              </p>
+              <a href="https://github.com/JaiMie1303/NewsPortalD13.4.git" class="link">Ссылка на GitHub</a>
+            </div>
+            <div class="card">
+              <img src="img/django-logo-black-and-white.png" alt="img2" />
+              <h4>Python + Django</h4>
+              <p>
+                Здесь ссылка на проект "Доска объявлений". Написано на языке Python
+                с использованием фреймфорка Django. Без Frontend и стилей.
+              </p>
+              <a href="https://github.com/JaiMie1303/FinalProject.git" class="link">Ссылка на GitHub</a>
+            </div>
+            <div class="card">
+              <img src="img/icons8-javascript.svg" alt="img2" />
+              <h4>HTML, CSS, JS</h4>
+              <p>
+                Здесь загружен проект Chat-Messenger. Написано на Python с
+                использованием фреймфорка Django (+DRF, Websocket). Также задействован Frontend
+                (HTML, CSS, JS).
+              </p>
+              <a href="https://github.com/JaiMie1303/DjChat.git" class="link">Ссылка на GitHub</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <p class="copyright">&copy; Copyright by JaiMie. 2024.</p>
+      <div class="social-icons">
+          <a href="https://github.com/JaiMie1303" class="social"><img src="./img/icon-gh.svg" alt="GitHub" width="33px" height="33px"></a>
+          <a href="https://t.me/JaiMie1303" class="social"><img src="./img/icon-tg.svg" alt="TGHub" width="33px" height="33px"></a>
+      </div>
+  </footer>
+  <script src="js/index.js"></script>
+  </body>
+</html>
